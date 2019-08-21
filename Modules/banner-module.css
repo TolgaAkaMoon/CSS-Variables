@@ -1,0 +1,7 @@
+.banner{
+    background: var(--theme-color);
+    color: var(--background-color);
+    font-size: 1.6em;
+    text-align: var(--align-center);
+    padding: 100px 0 160px;
+}

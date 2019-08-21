@@ -1,0 +1,19 @@
+footer{
+    background: #ddd;
+    padding: 60px 0
+}
+
+footer .blurbs{
+    display: var(--display-grid);
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: var(--content-width);
+    margin: 0 var(--margin-auto);
+    grid-gap: 40px;
+}
+
+footer .blurb{
+    text-align: var(--align-center);
+    color: var(--footer-color);
+    line-height: 2em;
+    font-size: 0.9em
+}

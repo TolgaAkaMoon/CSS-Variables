@@ -1,0 +1,12 @@
+/* --- Variables --- */
+
+:root {
+    --theme-color: #3e84da;
+    --link-color: #daa33e;
+    --background-color: #fff;
+    --footer-color: #333;
+    --align-center: center;
+    --content-width: 760px;
+    --margin-auto: auto;
+    --display-grid: grid;
+}
