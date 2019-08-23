@@ -11,3 +11,30 @@ nav.main-nav ul{
 nav a{
     color: var(--link-color);
 }
+
+@media screen and (max-width: 555px) {
+    nav.main-nav ul {
+        width: 400px;
+    }
+
+    nav a{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    nav.main-nav ul {
+        width: 200px;
+        margin-top: 30px;
+        display: block;
+    }
+
+    nav a{
+        font-size: 30px;
+
+    }
+
+    nav ul li {
+        margin-bottom: 30px;
+    }
+}
